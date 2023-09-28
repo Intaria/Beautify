@@ -249,14 +249,6 @@ public final class ItemInit {
 			() -> new BlockItem(BlockInit.QUARTZ_PICTURE_FRAME.get(),
 					new Item.Properties().tab(Beautify.BEAUTIFY_TAB)));
 
-	public static final RegistryObject<BlockItem> ROPE_ITEM = ITEMS.register("rope",
-			() -> new BlockItem(BlockInit.ROPE.get(), new Item.Properties().tab(Beautify.BEAUTIFY_TAB)) {
-				@Override
-				public int getBurnTime(ItemStack itemStack, RecipeType<?> recipeType) {
-					return 100;
-				}
-			});
-
 	public static final RegistryObject<BlockItem> HANGING_POT_ITEM = ITEMS.register("hanging_pot",
 			() -> new BlockItem(BlockInit.HANGING_POT.get(), new Item.Properties().tab(Beautify.BEAUTIFY_TAB)));
 

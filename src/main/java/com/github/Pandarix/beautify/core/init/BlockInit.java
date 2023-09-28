@@ -29,7 +29,6 @@ import com.github.Pandarix.beautify.common.block.MangroveTrellis;
 import com.github.Pandarix.beautify.common.block.OakBlinds;
 import com.github.Pandarix.beautify.common.block.OakPictureFrame;
 import com.github.Pandarix.beautify.common.block.OakTrellis;
-import com.github.Pandarix.beautify.common.block.Rope;
 import com.github.Pandarix.beautify.common.block.SpruceBlinds;
 import com.github.Pandarix.beautify.common.block.SprucePictureFrame;
 import com.github.Pandarix.beautify.common.block.SpruceTrellis;
@@ -59,10 +58,6 @@ public final class BlockInit {
 	public static final RegistryObject<BookStack> BOOKSTACK = BLOCKS.register("bookstack",
 			() -> new BookStack(BlockBehaviour.Properties.of(Material.CLOTH_DECORATION, MaterialColor.NONE)
 					.strength(0.2F, 0.2F).sound(SoundInit.BOOKSTACK_SOUNDS).noOcclusion()));
-
-	public static final RegistryObject<Rope> ROPE = BLOCKS.register("rope",
-			() -> new Rope(BlockBehaviour.Properties.of(Material.CLOTH_DECORATION, MaterialColor.NONE)
-					.strength(0.2F, 0.2F).sound(SoundType.WOOL).noOcclusion()));
 
 	public static final RegistryObject<HangingPot> HANGING_POT = BLOCKS.register("hanging_pot",
 			() -> new HangingPot(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.TERRACOTTA_BROWN)
