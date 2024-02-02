@@ -10,7 +10,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "beautify:progression/rope",
+	"parent": "minecraft:recipes/root",
 	"criteria": {
 		"obtain": {
 			"trigger": "minecraft:inventory_changed",
